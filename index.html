@@ -225,53 +225,20 @@ body {
   align-items: flex-start;
 }
 
-/* LEFT TEXT */
-.text-content {
-  width: 45%;
-}
-
-.text-content h1 {
-  font-size: 48px;
-  line-height: 1.1;
-  color: #0b3d3b;
-  margin-bottom: 40px;
-}
-
-.text-content ol {
-  padding-left: 20px;
-}
-
-.text-content li {
-  font-size: 18px;
-  margin-bottom: 20px;
-  line-height: 1.6;
-}
-
-/* RIGHT IMAGES */
-.image-content {
-  width: 55%;
-}
-
-.image-large img {
-  width: 100%;
-  border-radius: 6px;
-  margin-bottom: 20px;
-}
-
-/* GRID BELOW */
-.image-grid {
+/* EVENTS – 3 IMAGES IN ONE LARGE ROW */
+.event-gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 25px;
+  margin-top: 20px;
 }
 
-.image-grid img {
+.event-gallery img {
   width: 100%;
-  height: 100%;
+  height: 260px;
   object-fit: cover;
-  border-radius: 6px;
+  border-radius: 12px;
 }
-
   </style>
 </head>
 
@@ -419,19 +386,13 @@ body {
   <h2>Events</h2>
   <div class="card">
     <p><strong>Chandon Garden Spritz Sampling</strong></p>
-    
-  <!-- RIGHT IMAGES -->
-  <div class="image-content">
 
-    <div class="image-grid">
-      <img src="image2.png" alt="Event Image">
-      <img src="image3.png" alt="Event Image">
-      <img src="image4.png" alt="Event Image">
+    <div class="event-gallery">
+      <img src="image2.png" alt="Garden Sampling">
+      <img src="image3.png" alt="Garden Sampling">
+      <img src="image4.png" alt="Garden Sampling">
     </div>
 
-  </div>
-  
-  
   </div>
 </section>
 
